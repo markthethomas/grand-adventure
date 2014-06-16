@@ -46,7 +46,14 @@ module.exports = function(grunt) {
             'assets/js/plugins/bootstrap/tab.js',
             'assets/js/plugins/bootstrap/affix.js',
             'assets/js/plugins/*.js',
-            'assets/js/_*.js'
+            'assets/js/_*.js',
+            'app/bower_components/vendors/jquery.easings.min.js',
+            'app/bower_components/vendors/jquery.slimscroll.min.js',
+            'app/bower_components/jquery.fullpage.js',
+            'app/bower_components/fastclick/lib/fastclick.js',
+            'app/bower_components/skrollr/dist/skrollr.min.js'
+
+
           ]
         },
         options: {
